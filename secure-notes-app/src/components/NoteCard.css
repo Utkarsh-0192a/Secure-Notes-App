@@ -1,0 +1,67 @@
+.card {
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 15px;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.note-card {
+    background: white;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.note-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.note-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1e3c72;
+}
+
+.note-card .card-text {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.note-card .timestamp {
+    font-size: 0.85rem;
+    color: #adb5bd;
+    margin-bottom: 1rem;
+}
+
+.card-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.action-btn {
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.note-card .btn-primary {
+    background-color: #ff758c;
+    border: none;
+}
+
+.note-card .btn-danger {
+    background-color: #ff7eb3;
+    border: none;
+}
