@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NoteCard from '../components/NoteCard';
 import './DashboardPage.css'; // Assuming you have some additional CSS for styling
 import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap';
+import { toast } from 'react-toastify';
 
 const DashboardPage = () => {
     const { isAuthenticated, logout, token, user } = useAuth();
@@ -67,6 +68,7 @@ const DashboardPage = () => {
             }
 
             setNotes(notes.filter(note => note._id !== noteId));
+            toast.success('Note deleted successfully!');
         } catch (error) {
             console.error('Error deleting note:', error);
         }
