@@ -7,7 +7,7 @@ Utkarsh Gautam
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/yourusername/webapp.git](https://github.com/Utkarsh-0192a/Secure-Notes-App)
+    git clone https://github.com/Utkarsh-0192a/Secure-Notes-App
     ```
 2. Environment Setup:
     - Create a `.env` file in the root directory
@@ -20,7 +20,9 @@ Utkarsh Gautam
 
 3. Install dependencies:
     ```bash
-    cd webapp
+    cd Secure-Notes-App/backend
+    npm install
+    cd Secure-Notes-App/secure-notes-app
     npm install
     ```
 
