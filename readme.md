@@ -7,7 +7,7 @@ Utkarsh Gautam
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/webapp.git
+    git clone [https://github.com/yourusername/webapp.git](https://github.com/Utkarsh-0192a/Secure-Notes-App)
     ```
 2. Environment Setup:
     - Create a `.env` file in the root directory
@@ -49,6 +49,7 @@ Utkarsh Gautam
 - Request Body:
     ```json
     {
+        "name" : "string",
         "username": "string",
         "email": "string",
         "password": "string"
@@ -61,7 +62,7 @@ Utkarsh Gautam
 - Request Body:
     ```json
     {
-        "email": "string",
+        "username": "string",
         "password": "string"
     }
     ```
